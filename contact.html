@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bio.css">
+    <title>My Biography</title>
+</head>
+<body>
+    <div class="page_container">
+        <div class="main_content_container">
+            <nav class="navContainer">
+                <a class="navLink" href="index.html">Home</a>
+                <a class="navLink" href="portfolio.html" >Portfolio</a>
+                <a class="navLink" href="services.html">Services</a>
+                <a class="navLink" href="about.html">About Me</a>
+                <a class="navLink" href="resume.html">Resume</a>
+                <a class="navLink" href="contact.html">Contact</a>
+            </nav>
+            <header>
+                <h1 class="page_title">CONTACT</h1>
+                <hr class="line_title"/>
+            </header>
+            <main>
+                <p class="text_content">
+                    Here you may contact me at:
+                </p>
+                <img src="images/contact.jpg" alt="phone" id="phone">
+                <ul class="contact_list"><!--Add EMOJI-->
+                    <li class="individual_contact"><span><strong>Email:</strong><span onmouseover="showIcon()" onclick="EmailMe()" class="profileLinks">davewalls329@gmail.com<span class="myEmail">📧</span></span></span></li>
+                    <li class="individual_contact"><span><strong>LinkedIn:</strong><a target="_blank" class="profileLinks" href="https://www.linkedin.com/in/david-paredes-a3881b127/">Click Here</a><span class="myLinkedIn">🔗</span></li>
+                    <li class="individual_contact"><span><strong>Portfolium:</strong><a target="_blank" class="profileLinks" href="https://portfolium.com/davewalls329">Click Here</a><span class="myPortfolium">🔗</span></span></li>
+                </ul>
+                <p class="text_content">
+                    Or you may fill out form below:
+                </p>
+                <div class="contact_form_container">
+                    <form action="mailto:davewalls329@gmail.com" method="post" enctype="text/plain">
+                  
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="">--- Pick a Country ---</option>
+                        <option value="usa">United States of America</option>
+                        <option value="canada">Canada</option>
+                        <option value="mexico">Mexico</option>
+                      </select>
+                  
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write a Subject"></textarea>
+
+                      <label for="message">Message</label>
+                      <textarea id="content" name="comment" placeholder="Write your Message here"></textarea>
+                  
+                      <input id="email_submit_btn" type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
+
+                <hr class="line_title"/>
+            </main>
+            <footer>
+                <p class="copy_right">
+                    &#169; Copyright 2021 - My Tech Company
+                </p>
+            </footer>
+        </div><!--End of main_content_container-->
+    </div><!--End of page_container-->
+    <script type="text/javascript" src="techSite.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,353 @@
+body, html{
+    height: 100%;
+    background-color: rgb(150, 232, 247);
+}
+.page_container {
+    background-color: rgb(209, 151, 51);
+    width: 60%;
+    margin-left: 15%;
+    padding: 50px;
+    min-height: 100%;
+    margin-top: -10px;
+}
+
+.navContainer {
+    margin-left: 12%;
+}
+
+.navLink {
+    color: rgb(150, 232, 247);
+    text-decoration: none;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 45%;
+    box-shadow: 5px 5px 5px white;
+    margin-right: 2%;
+}
+
+.navLink:hover {
+    color: black;
+    background-color: rgb(150, 232, 247);
+    box-shadow: 5px 5px 5px black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.main_content_container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.chair {
+    color: rgb(93, 231, 127);
+}
+
+.cali {
+    color: rgb(3, 142, 177);
+}
+
+#laptop_code {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 12%;
+    box-shadow: 10px 10px 5px black;
+}
+
+#laptops_coffee {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 12%;
+    box-shadow: 10px 10px 5px black;
+}
+
+.page_title {
+    text-align: center;
+    margin-top: 50px;
+    color:rgb(150, 232, 247);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 36pt;
+    text-shadow: 2px 2px 5px black;
+}
+
+.page_subtitle {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(150, 232, 247);
+    font-size: 24pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_content {
+    line-height: 2;
+    font-size: 16pt;
+    color: rgb(150, 232, 247);
+    text-indent: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line_title {
+    border: 2px dashed rgb(3, 142, 177);
+}
+
+#earlyNavyFamPic {
+    margin-top: 10%;
+    width: 50%;
+    float: right;
+    shape-outside: circle(75%);
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px black;
+}
+
+#profilePic {
+    margin-right: 5%;
+    width: 50%;
+    float: left;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px black;
+}
+
+mark {
+    background-color: rgb(73, 73, 250);
+    color: gold;
+    border-radius: 10%;
+}
+
+.navContainer {
+    width: 100%;
+}
+
+.imageLinks {
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+    border-radius: 12%;
+}
+
+.container {
+    position: relative;
+    width: 40%;
+    display: inline-block;
+    margin: 1%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.projectImages {
+    display: block;
+    width: 100%;
+    height: 280px;
+    border-radius: 12%;
+    box-shadow: 10px 10px 5px black;
+}
+
+.individualProject_links {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    font-size: 24pt;
+}
+
+.copy_right {
+    text-align: right;
+    color: rgb(150, 232, 247);
+}
+
+.pdfView {
+    width: 100%;
+    height: 700px;
+}
+
+.docDownload {
+    color: rgb(150, 232, 247);
+    background-color: black;
+    border-radius: 25%;
+    box-shadow: 5px 5px 5px white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+}
+
+.docDownload:hover {
+    color: black;
+    background-color: rgb(150, 232, 247);
+    box-shadow: 5px 5px 5px black;
+}
+
+.fa-file-word-o {
+    margin-left: 10px;
+  }
+
+#service_container {
+    display: inline-block;
+}
+
+#services_photo {
+    width: 45%;
+    display: inline;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px black;
+}
+
+.services_list {
+    background-color: #008CBA;
+    padding: 20px;
+    border-radius: 12px;
+    width: 48%;
+    float: right;
+    margin-top: 12%;
+}
+
+.individual_service {
+    color: white;
+    border-left: 5px solid white;
+    list-style: none;
+    padding: 5px;
+    margin-bottom: 25px;
+    font-size: 16pt;
+}
+
+.individual_service:hover {
+    cursor: pointer;
+    border-left: 5px solid black;
+}
+
+.individual_service span {
+    margin-left: 5px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact_form_container {
+    border-radius: 12px;
+    background-color: #008CBA;
+    padding: 20px;
+    color: white;
+  }
+
+  #content {
+      height: 200px;
+  }
+
+  #email_submit_btn {
+    color: rgb(150, 232, 247);
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 45%;
+    box-shadow: 5px 5px 5px white;
+    margin-left: 90%;
+  }
+
+  #email_submit_btn:hover {
+    color: black;
+    background-color: rgb(150, 232, 247);
+    box-shadow: 5px 5px 5px black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+.profileLinks {
+    text-decoration: none;
+    color: black;
+    margin-left: 5%;
+}
+
+.profileLinks:hover {
+    color: white;
+}
+
+.contact_list {
+    background-color: #008CBA;
+    padding: 20px;
+    border-radius: 12px;
+    width: 42%;
+    float: right;    
+    margin-top: 3%;
+}
+
+.individual_contact {
+    color: white;
+    border-left: 5px solid white;
+    list-style: none;
+    padding: 5px;
+    margin-bottom: 25px;
+    font-size: 16pt;
+}
+
+.individual_contact:hover {
+    cursor: pointer;
+    border-left: 5px solid black;
+}
+
+.individual_contact span {
+    margin-left: 5px;
+}
+
+#phone {
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px black;
+}
